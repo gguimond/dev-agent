@@ -4,9 +4,12 @@
     "filePath": "custom-output.md",
     "removeComments": true,
     "showLineNumbers": true,
-    "topFilesLength": 10
+    "topFilesLength": 10,
+    "compress": true
   },
   "ignore": {
-    "customPatterns": ["**/node_modules/**"]
+    "customPatterns": [
+      "**/node_modules/**, **/build/**, **/coverage/**, **/dist/**"
+    ]
   }
 }
